@@ -1,0 +1,33 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #ddd;
+  display: grid;
+  grid-template-columns: 244px auto 344px;
+}
+.cards-container {
+  overflow-x: scroll;
+  border: 1px solid crimson;
+}
+.cards-inner {
+  margin: 0 auto;
+  min-width: 992px;
+  height: 100%;
+  background: lightblue;
+}
+.left-s {
+  width: 80px;
+  height: 100%;
+  background: lightyellow;
+}
+.right-s {
+  width: 40px;
+  height: 100%;
+  background: #333;
+  justify-self: end;
+}
